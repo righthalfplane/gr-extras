@@ -6,7 +6,7 @@ make -j 6
 sudo make install
 gnuradio-companion
 
-On Ubuntu 20.04
+On Ubuntu 20.04,Ubuntu 18.04, and PI4
 mkdir build
 cd build
 cmake -DCMAKE_INSTALL_PREFIX=/usr ../
