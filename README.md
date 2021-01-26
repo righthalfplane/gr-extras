@@ -7,42 +7,6 @@ The versions of gnuradio are incompatable with one another, so I had to create t
 
 Go into the gr-extras folder of the correct version and issue the following command -
 
-On MacOS -
-cd gr-extras(Mac-Ubuntu20.04)
-mkdir build
-cd build
-cmake -DCMAKE_INSTALL_PREFIX=/opt/local ../
-make -j 6
-sudo make install
-gnuradio-companion
-
-On Ubuntu 20.04,Ubuntu 18.04, and PI4
-cd  gr-extras(Mac-Ubuntu20.04) or cd  gr-extras(Ubuntu18.04) cd gr-extras(PI4)
-mkdir build
-cd build
-cmake -DCMAKE_INSTALL_PREFIX=/usr ../
-make -j 6
-sudo make install
-gnuradio-companion
-On MacOS -
-cd gr-extras(Mac-Ubuntu20.04)
-mkdir build
-cd build
-cmake -DCMAKE_INSTALL_PREFIX=/opt/local ../
-make -j 6
-sudo make install
-gnuradio-companion
-
-On Ubuntu 20.04,Ubuntu 18.04, and PI4
-cd  gr-extras(Mac-Ubuntu20.04) or cd  gr-extras(Ubuntu18.04) cd gr-extras(PI4)
-mkdir build
-cd build
-cmake -DCMAKE_INSTALL_PREFIX=/usr ../
-make -j 6
-sudo make install
-gnuradio-companion
-
-
 ```
 On MacOS -
 cd gr-extras(Mac-Ubuntu20.04)
