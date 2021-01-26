@@ -9,7 +9,9 @@ Go into the gr-extras folder of the correct version and issue the following comm
 
 ```
 On MacOS -
+git clone https://github.com/righthalfplane/gr-extras.git
 cd gr-extras-Mac-Ubuntu20.04
+cd gr-extras
 mkdir build
 cd build
 cmake -DCMAKE_INSTALL_PREFIX=/opt/local ../
@@ -18,7 +20,9 @@ sudo make install
 gnuradio-companion
 
 On Ubuntu 20.04,Ubuntu 18.04, and PI4
+git clone https://github.com/righthalfplane/gr-extras.git
 cd  gr-extras-Mac-Ubuntu20.04 or cd  gr-extras-Ubuntu18.04 or cd gr-extras-PI4
+cd gr-extras
 mkdir build
 cd build
 cmake -DCMAKE_INSTALL_PREFIX=/usr ../
