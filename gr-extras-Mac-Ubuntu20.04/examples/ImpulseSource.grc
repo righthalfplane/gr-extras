@@ -105,7 +105,7 @@ blocks:
     bus_structure: null
     coordinate: [768, 360.0]
     rotation: 0
-    state: enabled
+    state: disabled
 - name: blocks_throttle_0_0_0
   id: blocks_throttle
   parameters:
@@ -169,7 +169,7 @@ blocks:
     comment: ''
     maxoutbuf: '0'
     minoutbuf: '0'
-    nend: '0'
+    nend: '10'
     nfft: '1024'
   states:
     bus_sink: false
@@ -225,7 +225,7 @@ blocks:
     bus_structure: null
     coordinate: [776, 88.0]
     rotation: 0
-    state: disabled
+    state: enabled
 - name: qtgui_freq_sink_x_1_1
   id: qtgui_freq_sink_x
   parameters:
