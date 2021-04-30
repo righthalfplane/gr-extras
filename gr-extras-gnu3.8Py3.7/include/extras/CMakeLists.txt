@@ -24,5 +24,6 @@
 install(FILES
     api.h
     impulse.h
-    impulse2.h DESTINATION include/extras
+    impulse2.h
+    s_udp.h DESTINATION include/extras
 )
