@@ -721,6 +721,7 @@ namespace gr {
      */
     s_tcp_impl::~s_tcp_impl()
     {
+    	// closesocket(clientSocket);
     }
     
     
@@ -828,7 +829,6 @@ int s_tcp_impl::CheckSocket(SOCKET serverSocket,int *count,int ms)
         return ret;
 }
 
-    
 SOCKET s_tcp_impl::waitForService()
 {
 		
@@ -858,7 +858,7 @@ SOCKET s_tcp_impl::waitForService()
 		}
 	                                             
  	     shutdown(clientSocket,2);
-	     close(clientSocket);
+	     closesocket(clientSocket);
 */
 
 	}
