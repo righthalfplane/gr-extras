@@ -1,0 +1,199 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classgr_1_1extras_1_1impulse2__impl" kind="class" language="C++" prot="public">
+    <compoundname>gr::extras::impulse2_impl</compoundname>
+    <basecompoundref refid="classgr_1_1extras_1_1impulse2" prot="public" virt="non-virtual">gr::extras::impulse2</basecompoundref>
+    <includes refid="impulse2__impl_8h" local="no">impulse2_impl.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1extras_1_1impulse2__impl_1ae29c9877fe6137119d636e79d86aecfb" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::extras::impulse2_impl::d_nfft</definition>
+        <argsstring></argsstring>
+        <name>d_nfft</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/dir/Desktop/gr-extras/gr-extras/gr-extras-gnu3.8Py3.7/lib/impulse2_impl.h" line="689" column="10" bodyfile="/Users/dir/Desktop/gr-extras/gr-extras/gr-extras-gnu3.8Py3.7/lib/impulse2_impl.h" bodystart="689" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1extras_1_1impulse2__impl_1a7689d0c02ede68be99402669bcaf209e" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::extras::impulse2_impl::d_nend</definition>
+        <argsstring></argsstring>
+        <name>d_nend</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/dir/Desktop/gr-extras/gr-extras/gr-extras-gnu3.8Py3.7/lib/impulse2_impl.h" line="690" column="10" bodyfile="/Users/dir/Desktop/gr-extras/gr-extras/gr-extras-gnu3.8Py3.7/lib/impulse2_impl.h" bodystart="690" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1extras_1_1impulse2__impl_1a02ca41a051f6ce34544890dfb79f9ad6" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::extras::impulse2_impl::d_count</definition>
+        <argsstring></argsstring>
+        <name>d_count</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/dir/Desktop/gr-extras/gr-extras/gr-extras-gnu3.8Py3.7/lib/impulse2_impl.h" line="691" column="10" bodyfile="/Users/dir/Desktop/gr-extras/gr-extras/gr-extras-gnu3.8Py3.7/lib/impulse2_impl.h" bodystart="691" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1extras_1_1impulse2__impl_1a0f728b852a2ceb7c27aff6f6217d7665" prot="private" static="no" mutable="no">
+        <type>gr_complex *</type>
+        <definition>gr_complex* gr::extras::impulse2_impl::hold</definition>
+        <argsstring></argsstring>
+        <name>hold</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/dir/Desktop/gr-extras/gr-extras/gr-extras-gnu3.8Py3.7/lib/impulse2_impl.h" line="692" column="17" bodyfile="/Users/dir/Desktop/gr-extras/gr-extras/gr-extras-gnu3.8Py3.7/lib/impulse2_impl.h" bodystart="692" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1extras_1_1impulse2__impl_1aa37f7afcc691e50c21fa1672412b24f5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::extras::impulse2_impl::impulse2_impl</definition>
+        <argsstring>(int nfft, int nend)</argsstring>
+        <name>impulse2_impl</name>
+        <param>
+          <type>int</type>
+          <declname>nfft</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nend</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/dir/Desktop/gr-extras/gr-extras/gr-extras-gnu3.8Py3.7/lib/impulse2_impl.h" line="696" column="7"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1extras_1_1impulse2__impl_1af82c43e98a014b3a7d4b2b92c95d12c7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::extras::impulse2_impl::~impulse2_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~impulse2_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/dir/Desktop/gr-extras/gr-extras/gr-extras-gnu3.8Py3.7/lib/impulse2_impl.h" line="697" column="7"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1extras_1_1impulse2__impl_1a0df03d272c02b05bf25c09a222c8a02c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::extras::impulse2_impl::fft</definition>
+        <argsstring>(float *data, int nn, int isign)</argsstring>
+        <name>fft</name>
+        <param>
+          <type>float *</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nn</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>isign</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/dir/Desktop/gr-extras/gr-extras/gr-extras-gnu3.8Py3.7/lib/impulse2_impl.h" line="699" column="13"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1extras_1_1impulse2__impl_1abe0d807444eb39859b1c3f5d6a209507" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::extras::impulse2_impl::work</definition>
+        <argsstring>(int noutput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/dir/Desktop/gr-extras/gr-extras/gr-extras-gnu3.8Py3.7/lib/impulse2_impl.h" line="702" column="11"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>gr::sync_block</label>
+      </node>
+      <node id="1">
+        <label>gr::extras::impulse2_impl</label>
+        <link refid="classgr_1_1extras_1_1impulse2__impl"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>gr::extras::impulse2</label>
+        <link refid="classgr_1_1extras_1_1impulse2"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>gr::sync_block</label>
+      </node>
+      <node id="1">
+        <label>gr::extras::impulse2_impl</label>
+        <link refid="classgr_1_1extras_1_1impulse2__impl"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>gr::extras::impulse2</label>
+        <link refid="classgr_1_1extras_1_1impulse2"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/dir/Desktop/gr-extras/gr-extras/gr-extras-gnu3.8Py3.7/lib/impulse2_impl.h" line="686" column="5" bodyfile="/Users/dir/Desktop/gr-extras/gr-extras/gr-extras-gnu3.8Py3.7/lib/impulse2_impl.h" bodystart="687" bodyend="707"/>
+    <listofallmembers>
+      <member refid="classgr_1_1extras_1_1impulse2__impl_1a02ca41a051f6ce34544890dfb79f9ad6" prot="private" virt="non-virtual"><scope>gr::extras::impulse2_impl</scope><name>d_count</name></member>
+      <member refid="classgr_1_1extras_1_1impulse2__impl_1a7689d0c02ede68be99402669bcaf209e" prot="private" virt="non-virtual"><scope>gr::extras::impulse2_impl</scope><name>d_nend</name></member>
+      <member refid="classgr_1_1extras_1_1impulse2__impl_1ae29c9877fe6137119d636e79d86aecfb" prot="private" virt="non-virtual"><scope>gr::extras::impulse2_impl</scope><name>d_nfft</name></member>
+      <member refid="classgr_1_1extras_1_1impulse2__impl_1a0df03d272c02b05bf25c09a222c8a02c" prot="public" virt="non-virtual"><scope>gr::extras::impulse2_impl</scope><name>fft</name></member>
+      <member refid="classgr_1_1extras_1_1impulse2__impl_1a0f728b852a2ceb7c27aff6f6217d7665" prot="private" virt="non-virtual"><scope>gr::extras::impulse2_impl</scope><name>hold</name></member>
+      <member refid="classgr_1_1extras_1_1impulse2__impl_1aa37f7afcc691e50c21fa1672412b24f5" prot="public" virt="non-virtual"><scope>gr::extras::impulse2_impl</scope><name>impulse2_impl</name></member>
+      <member refid="classgr_1_1extras_1_1impulse2_1a55bd1bd958a9331ee38454ee1c9fd2cd" prot="public" virt="non-virtual"><scope>gr::extras::impulse2_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1extras_1_1impulse2_1abb3033f1dc8ff9ea2b61a8cc978a02ce" prot="public" virt="non-virtual"><scope>gr::extras::impulse2_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1extras_1_1impulse2__impl_1abe0d807444eb39859b1c3f5d6a209507" prot="public" virt="non-virtual"><scope>gr::extras::impulse2_impl</scope><name>work</name></member>
+      <member refid="classgr_1_1extras_1_1impulse2__impl_1af82c43e98a014b3a7d4b2b92c95d12c7" prot="public" virt="non-virtual"><scope>gr::extras::impulse2_impl</scope><name>~impulse2_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

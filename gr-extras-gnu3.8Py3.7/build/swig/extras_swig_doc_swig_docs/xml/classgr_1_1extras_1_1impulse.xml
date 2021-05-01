@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classgr_1_1extras_1_1impulse" kind="class" language="C++" prot="public">
+    <compoundname>gr::extras::impulse</compoundname>
+    <basecompoundref prot="public" virt="virtual">gr::sync_block</basecompoundref>
+    <includes refid="impulse_8h" local="no">impulse.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classgr_1_1extras_1_1impulse_1a3f7aafe88f63b1f81b528083a70b25e0" prot="public" static="no">
+        <type>boost::shared_ptr&lt; <ref refid="classgr_1_1extras_1_1impulse" kindref="compound">impulse</ref> &gt;</type>
+        <definition>typedef boost::shared_ptr&lt;impulse&gt; gr::extras::impulse::sptr</definition>
+        <argsstring></argsstring>
+        <name>sptr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/dir/Desktop/gr-extras/gr-extras/gr-extras-gnu3.8Py3.7/include/extras/impulse.h" line="38" column="33" bodyfile="/Users/dir/Desktop/gr-extras/gr-extras/gr-extras-gnu3.8Py3.7/include/extras/impulse.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgr_1_1extras_1_1impulse_1a3c72772ed890e46eda29f211b40c6734" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classgr_1_1extras_1_1impulse_1a3f7aafe88f63b1f81b528083a70b25e0" kindref="member">sptr</ref></type>
+        <definition>static sptr gr::extras::impulse::make</definition>
+        <argsstring>(int nfft, int nend)</argsstring>
+        <name>make</name>
+        <param>
+          <type>int</type>
+          <declname>nfft</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nend</declname>
+        </param>
+        <briefdescription>
+<para>Return a shared_ptr to a new instance of <ref refid="classgr_1_1extras_1_1impulse" kindref="compound">extras::impulse</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>To avoid accidental use of raw pointers, <ref refid="classgr_1_1extras_1_1impulse" kindref="compound">extras::impulse</ref>&apos;s constructor is in a private implementation class. <ref refid="classgr_1_1extras_1_1impulse_1a3c72772ed890e46eda29f211b40c6734" kindref="member">extras::impulse::make</ref> is the public interface for creating new instances. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/dir/Desktop/gr-extras/gr-extras/gr-extras-gnu3.8Py3.7/include/extras/impulse.h" line="48" column="19"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>&lt;+description of block+&gt; </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>gr::extras::impulse</label>
+        <link refid="classgr_1_1extras_1_1impulse"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>gr::sync_block</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>gr::extras::impulse</label>
+        <link refid="classgr_1_1extras_1_1impulse"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>gr::sync_block</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/dir/Desktop/gr-extras/gr-extras/gr-extras-gnu3.8Py3.7/include/extras/impulse.h" line="35" column="5" bodyfile="/Users/dir/Desktop/gr-extras/gr-extras/gr-extras-gnu3.8Py3.7/include/extras/impulse.h" bodystart="36" bodyend="49"/>
+    <listofallmembers>
+      <member refid="classgr_1_1extras_1_1impulse_1a3c72772ed890e46eda29f211b40c6734" prot="public" virt="non-virtual"><scope>gr::extras::impulse</scope><name>make</name></member>
+      <member refid="classgr_1_1extras_1_1impulse_1a3f7aafe88f63b1f81b528083a70b25e0" prot="public" virt="non-virtual"><scope>gr::extras::impulse</scope><name>sptr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

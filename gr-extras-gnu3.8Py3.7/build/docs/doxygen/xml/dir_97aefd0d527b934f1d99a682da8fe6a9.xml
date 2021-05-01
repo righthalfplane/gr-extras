@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="dir_97aefd0d527b934f1d99a682da8fe6a9" kind="dir">
+    <compoundname>lib</compoundname>
+    <innerfile refid="impulse2__impl_8h">impulse2_impl.h</innerfile>
+    <innerfile refid="impulse__impl_8h">impulse_impl.h</innerfile>
+    <innerfile refid="s__tcp__impl_8h">s_tcp_impl.h</innerfile>
+    <innerfile refid="s__udp__impl_8h">s_udp_impl.h</innerfile>
+    <innerfile refid="SocketDefs_8h">SocketDefs.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/dir/Desktop/gr-extras/gr-extras/gr-extras-gnu3.8Py3.7/lib/"/>
+  </compounddef>
+</doxygen>

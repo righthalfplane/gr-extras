@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.1" xml:lang="en-US">
+  <compound refid="classgr_1_1extras_1_1impulse" kind="class"><name>gr::extras::impulse</name>
+    <member refid="classgr_1_1extras_1_1impulse_1a3f7aafe88f63b1f81b528083a70b25e0" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1extras_1_1impulse_1a3c72772ed890e46eda29f211b40c6734" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="classgr_1_1extras_1_1impulse2" kind="class"><name>gr::extras::impulse2</name>
+    <member refid="classgr_1_1extras_1_1impulse2_1abb3033f1dc8ff9ea2b61a8cc978a02ce" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1extras_1_1impulse2_1a55bd1bd958a9331ee38454ee1c9fd2cd" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="classgr_1_1extras_1_1s__tcp" kind="class"><name>gr::extras::s_tcp</name>
+    <member refid="classgr_1_1extras_1_1s__tcp_1a3278b610acc731ac6d925afbdcfc43a9" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1extras_1_1s__tcp_1a18aa80c53d380387b327f4dfd3c6f843" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="classgr_1_1extras_1_1s__udp" kind="class"><name>gr::extras::s_udp</name>
+    <member refid="classgr_1_1extras_1_1s__udp_1a086fce3a0c027666d858f4af5f3c9218" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1extras_1_1s__udp_1acd9f82c25c46b31e99e695e2882e2a84" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="namespacegr" kind="namespace"><name>gr</name>
+  </compound>
+  <compound refid="namespacegr_1_1extras" kind="namespace"><name>gr::extras</name>
+  </compound>
+  <compound refid="namespacestd" kind="namespace"><name>std</name>
+  </compound>
+  <compound refid="api_8h" kind="file"><name>api.h</name>
+    <member refid="api_8h_1a775492c91bfa324e26b4b47be373be89" kind="define"><name>EXTRAS_API</name></member>
+  </compound>
+  <compound refid="impulse_8h" kind="file"><name>impulse.h</name>
+  </compound>
+  <compound refid="impulse2_8h" kind="file"><name>impulse2.h</name>
+  </compound>
+  <compound refid="s__tcp_8h" kind="file"><name>s_tcp.h</name>
+  </compound>
+  <compound refid="s__udp_8h" kind="file"><name>s_udp.h</name>
+  </compound>
+  <compound refid="dir_b5108f9634b2a27c9669a8663e156586" kind="dir"><name>extras</name>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>include</name>
+  </compound>
+</doxygenindex>

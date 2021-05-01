@@ -11,6 +11,7 @@
 #include "extras/impulse.h"
 #include "extras/impulse2.h"
 #include "extras/s_udp.h"
+#include "extras/s_tcp.h"
 %}
 
 %include "extras/impulse.h"
@@ -19,3 +20,5 @@ GR_SWIG_BLOCK_MAGIC2(extras, impulse);
 GR_SWIG_BLOCK_MAGIC2(extras, impulse2);
 %include "extras/s_udp.h"
 GR_SWIG_BLOCK_MAGIC2(extras, s_udp);
+%include "extras/s_tcp.h"
+GR_SWIG_BLOCK_MAGIC2(extras, s_tcp);

@@ -15,7 +15,7 @@ sudo make install
 gnuradio-companion
 
 
-setenv PYTHONPATH /opt/local/lib/python3.7/site-packages
+setenv PYTHONPATH /opt/local/lib/python3.7/site-packages:/opt/local/lib
 
 
 

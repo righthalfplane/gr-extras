@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classgr_1_1extras_1_1s__udp" kind="class" language="C++" prot="public">
+    <compoundname>gr::extras::s_udp</compoundname>
+    <basecompoundref prot="public" virt="virtual">gr::sync_block</basecompoundref>
+    <includes refid="s__udp_8h" local="no">s_udp.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classgr_1_1extras_1_1s__udp_1a086fce3a0c027666d858f4af5f3c9218" prot="public" static="no">
+        <type>boost::shared_ptr&lt; <ref refid="classgr_1_1extras_1_1s__udp" kindref="compound">s_udp</ref> &gt;</type>
+        <definition>typedef boost::shared_ptr&lt;s_udp&gt; gr::extras::s_udp::sptr</definition>
+        <argsstring></argsstring>
+        <name>sptr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/dir/Desktop/gr-extras/gr-extras/gr-extras-gnu3.8Py3.7/include/extras/s_udp.h" line="695" column="33" bodyfile="/Users/dir/Desktop/gr-extras/gr-extras/gr-extras-gnu3.8Py3.7/include/extras/s_udp.h" bodystart="695" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgr_1_1extras_1_1s__udp_1acd9f82c25c46b31e99e695e2882e2a84" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classgr_1_1extras_1_1s__udp_1a086fce3a0c027666d858f4af5f3c9218" kindref="member">sptr</ref></type>
+        <definition>static sptr gr::extras::s_udp::make</definition>
+        <argsstring>(int port)</argsstring>
+        <name>make</name>
+        <param>
+          <type>int</type>
+          <declname>port</declname>
+        </param>
+        <briefdescription>
+<para>Return a shared_ptr to a new instance of <ref refid="classgr_1_1extras_1_1s__udp" kindref="compound">extras::s_udp</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>To avoid accidental use of raw pointers, <ref refid="classgr_1_1extras_1_1s__udp" kindref="compound">extras::s_udp</ref>&apos;s constructor is in a private implementation class. <ref refid="classgr_1_1extras_1_1s__udp_1acd9f82c25c46b31e99e695e2882e2a84" kindref="member">extras::s_udp::make</ref> is the public interface for creating new instances. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/dir/Desktop/gr-extras/gr-extras/gr-extras-gnu3.8Py3.7/include/extras/s_udp.h" line="705" column="19"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>&lt;+description of block+&gt; </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>gr::sync_block</label>
+      </node>
+      <node id="1">
+        <label>gr::extras::s_udp</label>
+        <link refid="classgr_1_1extras_1_1s__udp"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>gr::sync_block</label>
+      </node>
+      <node id="1">
+        <label>gr::extras::s_udp</label>
+        <link refid="classgr_1_1extras_1_1s__udp"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/dir/Desktop/gr-extras/gr-extras/gr-extras-gnu3.8Py3.7/include/extras/s_udp.h" line="692" column="5" bodyfile="/Users/dir/Desktop/gr-extras/gr-extras/gr-extras-gnu3.8Py3.7/include/extras/s_udp.h" bodystart="693" bodyend="706"/>
+    <listofallmembers>
+      <member refid="classgr_1_1extras_1_1s__udp_1acd9f82c25c46b31e99e695e2882e2a84" prot="public" virt="non-virtual"><scope>gr::extras::s_udp</scope><name>make</name></member>
+      <member refid="classgr_1_1extras_1_1s__udp_1a086fce3a0c027666d858f4af5f3c9218" prot="public" virt="non-virtual"><scope>gr::extras::s_udp</scope><name>sptr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

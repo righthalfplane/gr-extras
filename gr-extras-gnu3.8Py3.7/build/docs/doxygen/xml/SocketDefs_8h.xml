@@ -1,0 +1,114 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="SocketDefs_8h" kind="file" language="C++">
+    <compoundname>SocketDefs.h</compoundname>
+    <includedby refid="s__udp__impl_8h" local="yes">s_udp_impl.h</includedby>
+    <invincdepgraph>
+      <node id="2">
+        <label>s_udp_impl.h</label>
+        <link refid="s__udp__impl_8h"/>
+      </node>
+      <node id="1">
+        <label>SocketDefs.h</label>
+        <link refid="SocketDefs_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="SocketDefs_8h_1a26769957ec1a2beaf223f33b66ee64ab" prot="public" static="no">
+        <name>INVALID_SOCKET</name>
+        <initializer>-1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/dir/Desktop/gr-extras/gr-extras/gr-extras-gnu3.8Py3.7/lib/SocketDefs.h" line="78" column="9" bodyfile="/Users/dir/Desktop/gr-extras/gr-extras/gr-extras-gnu3.8Py3.7/lib/SocketDefs.h" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="SocketDefs_8h_1aff55fe551a9992a54ec54621c524d0a4" prot="public" static="no">
+        <name>SOCKET</name>
+        <initializer>int</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/dir/Desktop/gr-extras/gr-extras/gr-extras-gnu3.8Py3.7/lib/SocketDefs.h" line="82" column="9" bodyfile="/Users/dir/Desktop/gr-extras/gr-extras/gr-extras-gnu3.8Py3.7/lib/SocketDefs.h" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="SocketDefs_8h_1a37dcde53846ba99b07de5066884b5441" prot="public" static="no">
+        <name>SOCKET_ERRNO</name>
+        <initializer>errno</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/dir/Desktop/gr-extras/gr-extras/gr-extras-gnu3.8Py3.7/lib/SocketDefs.h" line="100" column="10" bodyfile="/Users/dir/Desktop/gr-extras/gr-extras/gr-extras-gnu3.8Py3.7/lib/SocketDefs.h" bodystart="100" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="SocketDefs_8h_1a0d0b8f20ba69f51b0230ebd500fceb51" prot="public" static="no">
+        <name>SOCKET_EINPROGRESS</name>
+        <initializer>EINPROGRESS</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/dir/Desktop/gr-extras/gr-extras/gr-extras-gnu3.8Py3.7/lib/SocketDefs.h" line="101" column="9" bodyfile="/Users/dir/Desktop/gr-extras/gr-extras/gr-extras-gnu3.8Py3.7/lib/SocketDefs.h" bodystart="101" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="SocketDefs_8h_1acaa8bd0edd40626f55e609edb16a99c9" prot="public" static="no">
+        <name>SOCKET_ETIMEDOUT</name>
+        <initializer>ETIMEDOUT</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/dir/Desktop/gr-extras/gr-extras/gr-extras-gnu3.8Py3.7/lib/SocketDefs.h" line="102" column="9" bodyfile="/Users/dir/Desktop/gr-extras/gr-extras/gr-extras-gnu3.8Py3.7/lib/SocketDefs.h" bodystart="102" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="SocketDefs_8h_1af177b6c500b1dd0c533d3388339ba9f9" prot="public" static="no">
+        <name>SOCKET_ECONNREFUSED</name>
+        <initializer>ECONNREFUSED</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/dir/Desktop/gr-extras/gr-extras/gr-extras-gnu3.8Py3.7/lib/SocketDefs.h" line="103" column="9" bodyfile="/Users/dir/Desktop/gr-extras/gr-extras/gr-extras-gnu3.8Py3.7/lib/SocketDefs.h" bodystart="103" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="SocketDefs_8h_1a3dc58cc99e429b44ea2bbc1f458a38df" prot="public" static="no">
+        <name>socket_strerror</name>
+        <initializer>strerror</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/dir/Desktop/gr-extras/gr-extras/gr-extras-gnu3.8Py3.7/lib/SocketDefs.h" line="104" column="9" bodyfile="/Users/dir/Desktop/gr-extras/gr-extras/gr-extras-gnu3.8Py3.7/lib/SocketDefs.h" bodystart="104" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="SocketDefs_8h_1a9f55d0e90dc8cc6b2287312435cdde48" prot="public" static="no">
+        <name>MSG_NOSIGNAL</name>
+        <initializer>0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/dir/Desktop/gr-extras/gr-extras/gr-extras-gnu3.8Py3.7/lib/SocketDefs.h" line="111" column="9" bodyfile="/Users/dir/Desktop/gr-extras/gr-extras/gr-extras-gnu3.8Py3.7/lib/SocketDefs.h" bodystart="111" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/dir/Desktop/gr-extras/gr-extras/gr-extras-gnu3.8Py3.7/lib/SocketDefs.h"/>
+  </compounddef>
+</doxygen>
