@@ -23,5 +23,6 @@
 ########################################################################
 install(FILES
     api.h
-    impulse.h DESTINATION include/extras
+    impulse.h
+    s_tcp.h DESTINATION include/extras
 )

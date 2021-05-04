@@ -235,7 +235,7 @@ blocks:
     bus_structure: null
     coordinate: [512, 196.0]
     rotation: 0
-    state: disabled
+    state: enabled
 - name: blocks_multiply_const_vxx_0_0
   id: blocks_multiply_const_vxx
   parameters:
@@ -253,7 +253,7 @@ blocks:
     bus_structure: null
     coordinate: [480, 268.0]
     rotation: 0
-    state: enabled
+    state: disabled
 - name: blocks_udp_sink_0
   id: blocks_udp_sink
   parameters:
@@ -345,7 +345,7 @@ blocks:
     bus_structure: null
     coordinate: [200, 184.0]
     rotation: 0
-    state: true
+    state: disabled
 - name: import_0
   id: import
   parameters:
@@ -393,7 +393,7 @@ blocks:
     bus_structure: null
     coordinate: [168, 96.0]
     rotation: 0
-    state: disabled
+    state: enabled
 - name: qtgui_freq_sink_x_0
   id: qtgui_freq_sink_x
   parameters:

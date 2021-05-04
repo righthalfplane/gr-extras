@@ -202,7 +202,7 @@
     </param>
     <param>
       <key>const</key>
-      <value>80</value>
+      <value>0.1</value>
     </param>
     <param>
       <key>affinity</key>
@@ -297,6 +297,69 @@
     </param>
   </block>
   <block>
+    <key>blocks_udp_source</key>
+    <param>
+      <key>alias</key>
+      <value></value>
+    </param>
+    <param>
+      <key>comment</key>
+      <value></value>
+    </param>
+    <param>
+      <key>affinity</key>
+      <value></value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>True</value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(240, 132)</value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>id</key>
+      <value>blocks_udp_source_0</value>
+    </param>
+    <param>
+      <key>ipaddr</key>
+      <value>127.0.0.1</value>
+    </param>
+    <param>
+      <key>maxoutbuf</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>minoutbuf</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>eof</key>
+      <value>False</value>
+    </param>
+    <param>
+      <key>type</key>
+      <value>complex</value>
+    </param>
+    <param>
+      <key>psize</key>
+      <value>1472</value>
+    </param>
+    <param>
+      <key>port</key>
+      <value>1234</value>
+    </param>
+    <param>
+      <key>vlen</key>
+      <value>1</value>
+    </param>
+  </block>
+  <block>
     <key>dtv_atsc_rx</key>
     <param>
       <key>alias</key>
@@ -341,6 +404,53 @@
     <param>
       <key>sps</key>
       <value>1.1</value>
+    </param>
+  </block>
+  <block>
+    <key>extras_s_tcp</key>
+    <param>
+      <key>alias</key>
+      <value></value>
+    </param>
+    <param>
+      <key>comment</key>
+      <value></value>
+    </param>
+    <param>
+      <key>affinity</key>
+      <value></value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(248, 268)</value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>id</key>
+      <value>extras_s_tcp_0</value>
+    </param>
+    <param>
+      <key>maxoutbuf</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>minoutbuf</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>porti</key>
+      <value>5000</value>
+    </param>
+    <param>
+      <key>addressi</key>
+      <value>'192.168.0.8'</value>
     </param>
   </block>
   <block>
@@ -447,7 +557,7 @@
     </param>
     <param>
       <key>_enabled</key>
-      <value>True</value>
+      <value>0</value>
     </param>
     <param>
       <key>filename</key>
@@ -1085,109 +1195,6 @@
     </param>
   </block>
   <block>
-    <key>sdrplay_rspduo_source</key>
-    <param>
-      <key>agc_enabled</key>
-      <value>False</value>
-    </param>
-    <param>
-      <key>antenna</key>
-      <value>'T1_50ohm'</value>
-    </param>
-    <param>
-      <key>bw</key>
-      <value>8000</value>
-    </param>
-    <param>
-      <key>biasT</key>
-      <value>False</value>
-    </param>
-    <param>
-      <key>alias</key>
-      <value></value>
-    </param>
-    <param>
-      <key>bcast_notch</key>
-      <value>False</value>
-    </param>
-    <param>
-      <key>comment</key>
-      <value></value>
-    </param>
-    <param>
-      <key>affinity</key>
-      <value></value>
-    </param>
-    <param>
-      <key>dab_notch</key>
-      <value>False</value>
-    </param>
-    <param>
-      <key>dc_offset_mode</key>
-      <value>True</value>
-    </param>
-    <param>
-      <key>debug_enabled</key>
-      <value>False</value>
-    </param>
-    <param>
-      <key>device_serial</key>
-      <value>'0'</value>
-    </param>
-    <param>
-      <key>_enabled</key>
-      <value>0</value>
-    </param>
-    <param>
-      <key>_coordinate</key>
-      <value>(208, 44)</value>
-    </param>
-    <param>
-      <key>_rotation</key>
-      <value>0</value>
-    </param>
-    <param>
-      <key>id</key>
-      <value>sdrplay_rspduo_source_0</value>
-    </param>
-    <param>
-      <key>if_atten_db</key>
-      <value>60</value>
-    </param>
-    <param>
-      <key>ifType</key>
-      <value>0</value>
-    </param>
-    <param>
-      <key>iq_balance_mode</key>
-      <value>True</value>
-    </param>
-    <param>
-      <key>lna_atten_step</key>
-      <value>4</value>
-    </param>
-    <param>
-      <key>lo_mode</key>
-      <value>1</value>
-    </param>
-    <param>
-      <key>maxoutbuf</key>
-      <value>0</value>
-    </param>
-    <param>
-      <key>minoutbuf</key>
-      <value>0</value>
-    </param>
-    <param>
-      <key>rf_freq</key>
-      <value>freq</value>
-    </param>
-    <param>
-      <key>sample_rate</key>
-      <value>s_rate</value>
-    </param>
-  </block>
-  <block>
     <key>sdrplay_source</key>
     <param>
       <key>loFreq</key>
@@ -1305,6 +1312,12 @@
     <sink_key>0</sink_key>
   </connection>
   <connection>
+    <source_block_id>blocks_udp_source_0</source_block_id>
+    <sink_block_id>blocks_multiply_const_vxx_0</sink_block_id>
+    <source_key>0</source_key>
+    <sink_key>0</sink_key>
+  </connection>
+  <connection>
     <source_block_id>dtv_atsc_rx_0</source_block_id>
     <sink_block_id>blocks_char_to_float_0</sink_block_id>
     <source_key>0</source_key>
@@ -1317,20 +1330,14 @@
     <sink_key>0</sink_key>
   </connection>
   <connection>
-    <source_block_id>limesdr_source_0</source_block_id>
+    <source_block_id>extras_s_tcp_0</source_block_id>
     <sink_block_id>blocks_multiply_const_vxx_0</sink_block_id>
     <source_key>0</source_key>
     <sink_key>0</sink_key>
   </connection>
   <connection>
-    <source_block_id>sdrplay_rspduo_source_0</source_block_id>
-    <sink_block_id>dtv_atsc_rx_0</sink_block_id>
-    <source_key>0</source_key>
-    <sink_key>0</sink_key>
-  </connection>
-  <connection>
-    <source_block_id>sdrplay_rspduo_source_0</source_block_id>
-    <sink_block_id>qtgui_freq_sink_x_0</sink_block_id>
+    <source_block_id>limesdr_source_0</source_block_id>
+    <sink_block_id>blocks_multiply_const_vxx_0</sink_block_id>
     <source_key>0</source_key>
     <sink_key>0</sink_key>
   </connection>

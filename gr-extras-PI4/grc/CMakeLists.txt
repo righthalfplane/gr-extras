@@ -19,5 +19,6 @@
 # Boston, MA 02110-1301, USA.
 
 install(FILES
-    extras_impulse.xml DESTINATION share/gnuradio/grc/blocks
+    extras_impulse.xml
+    extras_s_tcp.xml DESTINATION share/gnuradio/grc/blocks
 )
