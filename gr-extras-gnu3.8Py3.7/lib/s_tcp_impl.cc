@@ -704,15 +704,16 @@ namespace gr {
     {
     	char add[256];
     
-          printf("address %s Port %d\n",add,Port);
           
 		  strncpy(add,address.c_str(),sizeof(add));
           
           serverSocket=startService(add);
           
-          printf("serverSocket %d\n",serverSocket);
-
+          printf("address %s Port %d serverSocket %d\n",add,Port,serverSocket);
+          
           runMode=0;
+    
+          dataType=2;
     
     }
 
@@ -736,16 +737,37 @@ namespace gr {
        if(runMode == 0){
            SOCKET sock=waitForService();
            if(sock != -1){
-               printf("socket accept %d\n",sock);
+               printf("Connection Opened socket %d\n",sock);
                runMode=1;
         	}
        }
 		if(runMode == 1){
 		    long size=noutput_items*sizeof(gr_complex);
-	    	int ret=netRead(clientSocket,(char *)out,size);
+		    int ret;
+		    if(dataType == 0){
+	    	    ret=netRead(clientSocket,(char *)out,size);
+		    }else if(dataType == 1){
+	    	    ret=netRead(clientSocket,(char *)out,size/2);
+	    	    if(!ret){
+	    	        short int *in=(short int *)output_items[0];
+	    	        for(int n=noutput_items-1;n>=0;--n){
+	    	             out[n]=gr_complex{(float)in[2*n],(float)in[2*n+1]};
+	    	        }
+	    	    }
+		    }else if(dataType == 2){
+	    	    ret=netRead(clientSocket,(char *)out,size/4);
+	    	    if(!ret){
+	    	        signed char *in=(signed char *)output_items[0];
+	    	        for(int n=noutput_items-1;n>=0;--n){
+	    	             out[n]=gr_complex{(float)in[2*n],(float)in[2*n+1]};
+	    	        }
+	    	    }
+	    	    
+		    }
 	    	if(ret > 0){
 	    	    runMode=0;
-                printf("socket read error\n");
+                printf("Connection Closed\n");
+                closesocket(clientSocket);
 	    	}else{
 	    	    ;
 	    	}
@@ -841,11 +863,11 @@ SOCKET s_tcp_impl::waitForService()
 	    ret=CheckSocket(serverSocket,&count,3000);
 
 		if(ret <= 0){
-		    fprintf(stderr,"ret %d\n",ret);
+		    fprintf(stderr,"Wait Connection %d\n",ret);
 			return -1;
         }
         
-		fprintf(stderr,"ret %d\n",ret);
+		fprintf(stderr,"Try Connection %d\n",ret);
 		
 		clientSocket=accept(serverSocket,(struct  sockaddr  *)&clientSocketAddr,
 	                        &addrLen);

@@ -41,7 +41,7 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [192, 88]
+    coordinate: [192, 24.0]
     rotation: 0
     state: enabled
 - name: freq
@@ -55,7 +55,7 @@ blocks:
     bus_structure: null
     coordinate: [10, 92]
     rotation: 0
-    state: enabled
+    state: disabled
 - name: freq
   id: variable
   parameters:
@@ -116,6 +116,18 @@ blocks:
     coordinate: [16, 464]
     rotation: 0
     state: disabled
+- name: freq
+  id: variable
+  parameters:
+    comment: ''
+    value: '491000000'
+  states:
+    bus_sink: false
+    bus_source: false
+    bus_structure: null
+    coordinate: [96, 160.0]
+    rotation: 0
+    state: enabled
 - name: gain_0
   id: variable_qtgui_range
   parameters:
@@ -221,7 +233,25 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [416, 196.0]
+    coordinate: [512, 196.0]
+    rotation: 0
+    state: disabled
+- name: blocks_multiply_const_vxx_0_0
+  id: blocks_multiply_const_vxx
+  parameters:
+    affinity: ''
+    alias: ''
+    comment: ''
+    const: '0.001'
+    maxoutbuf: '0'
+    minoutbuf: '0'
+    type: complex
+    vlen: '1'
+  states:
+    bus_sink: false
+    bus_source: false
+    bus_structure: null
+    coordinate: [480, 268.0]
     rotation: 0
     state: enabled
 - name: blocks_udp_sink_0
@@ -231,16 +261,16 @@ blocks:
     alias: ''
     comment: ''
     eof: 'False'
-    ipaddr: 192.168.0.2
+    ipaddr: 127.0.0.1
     port: '1234'
-    psize: '512'
+    psize: '500'
     type: byte
     vlen: '1'
   states:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [1120, 280.0]
+    coordinate: [872, 344.0]
     rotation: 0
     state: enabled
 - name: blocks_udp_source_0
@@ -261,9 +291,9 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [184, 248.0]
+    coordinate: [176, 248.0]
     rotation: 0
-    state: enabled
+    state: disabled
 - name: dc_blocker_xx_1
   id: dc_blocker_xx
   parameters:
@@ -299,6 +329,23 @@ blocks:
     coordinate: [504, 480.0]
     rotation: 0
     state: enabled
+- name: extras_s_tcp_0
+  id: extras_s_tcp
+  parameters:
+    address: 192.168.0.2
+    affinity: ''
+    alias: ''
+    comment: ''
+    maxoutbuf: '0'
+    minoutbuf: '0'
+    port: '5000'
+  states:
+    bus_sink: false
+    bus_source: false
+    bus_structure: null
+    coordinate: [200, 184.0]
+    rotation: 0
+    state: true
 - name: import_0
   id: import
   parameters:
@@ -344,7 +391,7 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [152, 160.0]
+    coordinate: [168, 96.0]
     rotation: 0
     state: disabled
 - name: qtgui_freq_sink_x_0
@@ -504,7 +551,7 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [816, 220.0]
+    coordinate: [816, 204.0]
     rotation: 0
     state: enabled
 - name: soapy_source_0
@@ -582,10 +629,13 @@ connections:
 - [blocks_file_source_0_0_0, '0', dc_blocker_xx_1, '0']
 - [blocks_multiply_const_vxx_0, '0', dtv_atsc_rx_0, '0']
 - [blocks_multiply_const_vxx_0, '0', qtgui_freq_sink_x_0, '0']
+- [blocks_multiply_const_vxx_0_0, '0', dtv_atsc_rx_0, '0']
+- [blocks_multiply_const_vxx_0_0, '0', qtgui_freq_sink_x_0, '0']
 - [blocks_udp_source_0, '0', blocks_multiply_const_vxx_0, '0']
 - [dtv_atsc_rx_0, '0', blocks_char_to_float_0, '0']
 - [dtv_atsc_rx_0, '0', blocks_file_sink_0, '0']
 - [dtv_atsc_rx_0, '0', blocks_udp_sink_0, '0']
+- [extras_s_tcp_0, '0', blocks_multiply_const_vxx_0_0, '0']
 - [limesdr_source_0, '0', blocks_multiply_const_vxx_0, '0']
 - [soapy_source_0, '0', blocks_multiply_const_vxx_0, '0']
 

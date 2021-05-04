@@ -697,6 +697,7 @@ namespace gr {
      socklen_t addrLen;
      struct sockaddr_in clientSocketAddr;
      int runMode;
+     int dataType;
 
 
       // Nothing to declare in this block.
