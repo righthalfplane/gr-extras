@@ -1,10 +1,10 @@
-id: extras_impulse
-label: Impulse Source
+id: extras_s_tcp
+label: Tcp Source
 category: '[Extras]'
 
 templates:
   imports: import extras
-  make: extras.impulse(${nfft}, ${nend})
+  make: extras.s_tcp(${address}, ${port})
 
 #  Make one 'parameters' list entry for every parameter you want settable from the GUI.
 #     Keys include:
@@ -12,14 +12,15 @@ templates:
 #     * label (label shown in the GUI)
 #     * dtype (e.g. int, float, complex, byte, short, xxx_vector, ...)
 parameters:
-- id: nfft
-  label: Number of Frequencies
+- id: address
+  label: UDP port address
+  dtype: string
+  default: '192.168.0.2'
+
+- id: port
+  label: UDP port number
   dtype: int
-  default: 1024
-- id: nend
-  label: Frequencies to Skip
-  dtype: int
-  default: 0
+  default: 5000
 
 #  Make one 'inputs' list entry per input and one 'outputs' list entry per output.
 #  Keys include:
@@ -28,11 +29,11 @@ parameters:
 #      * dtype (e.g. int, float, complex, byte, short, xxx_vector, ...)
 #      * vlen (optional - data stream vector length. Default is 1)
 #      * optional (optional - set to 1 for optional inputs. Default is 0)
-
 outputs:
 - label: out
   dtype: complex
-  vlen: ${nfft}
+  vlen: 1
+
 
 #  'file_format' specifies the version of the GRC yml format used in the file
 #  and should usually not be changed.

@@ -25,6 +25,7 @@ include(GrPlatform) #define LIB_SUFFIX
 
 list(APPEND extras_sources
     impulse_impl.cc
+    s_tcp_impl.cc
 )
 
 set(extras_sources "${extras_sources}" PARENT_SCOPE)
