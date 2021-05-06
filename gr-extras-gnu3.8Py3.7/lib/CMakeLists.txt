@@ -28,6 +28,7 @@ list(APPEND extras_sources
     impulse2_impl.cc
     s_udp_impl.cc
     s_tcp_impl.cc
+    t_upd_impl.cc
 )
 
 set(extras_sources "${extras_sources}" PARENT_SCOPE)

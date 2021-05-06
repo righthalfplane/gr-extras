@@ -22,5 +22,6 @@ install(FILES
     extras_impulse.block.yml
     extras_impulse2.block.yml
     extras_s_udp.block.yml
-    extras_s_tcp.block.yml DESTINATION share/gnuradio/grc/blocks
+    extras_s_tcp.block.yml
+    extras_t_upd.block.yml DESTINATION share/gnuradio/grc/blocks
 )
