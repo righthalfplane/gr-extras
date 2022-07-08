@@ -1,0 +1,6 @@
+/*!
+ * \defgroup block GNU Radio EXTRAS_UBUNTU22_04 C++ Signal Processing Blocks
+ * \brief All C++ blocks that can be used from the EXTRAS_UBUNTU22_04 GNU Radio
+ *        module are listed here or in the subcategories below.
+ *
+ */
